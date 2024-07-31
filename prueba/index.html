@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>El camino de Erick a Canada</title>
+</head>
+<body onload="onLoad();">
+    <header>"El camino de Erick a Canada"</header>
+    <div id="welcomeBox">
+        <h2>Bienvenido a el juego!</h2>
+        <p>Instrucciones:</p>
+        <ul>
+            <li>Usa las flechas del teclado o las teclas WASD para moverme.</li>
+            <li>Tu objetivo es lograr que llegue contigo Ricky!</li>
+        </ul>
+        <button onclick="startGame()">Comenzar</button>
+    </div>
+    <canvas id="mainForm" class="hidden"></canvas>
+    <div id="congratsBox" style="display: none;">
+        <h2>¡Felicidades!</h2>
+        <p>Has completado el laberinto.</p>
+        <p>Fue dificil, pero lo importante es que</p>
+        <p>Ahora Erick y Ricky están juntos ❤️</p>
+        <img id="congratsImage" src="juntos.PNG" alt="Felicitaciones">
+        <button onclick="redirect()">¡Reclama tu premio! 🏆🎁</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

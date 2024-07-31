@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Text Me One', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+header {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+canvas {
+    border: 2px solid #000;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#welcomeBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    background: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #ccc, -10px -10px 20px #fff;
+    margin-bottom: 20px;
+}
+
+#welcomeBox h2 {
+    margin-bottom: 10px;
+}
+
+#welcomeBox ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+#welcomeBox button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 10px;
+    background-color: #6c757d;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 3px 3px 6px #aaa, -3px -3px 6px #fff;
+}
+
+#welcomeBox button:hover {
+    background-color: #5a6268;
+}
+
+#congratsBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    background: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #ccc, -10px -10px 20px #fff;
+}
+
+#congratsBox h2 {
+    margin-bottom: 10px;
+}
+
+#congratsBox p {
+    margin-bottom: 10px;
+}
+
+#congratsImage {
+    width: 80%;
+    height: auto;
+    margin: 10px 0;
+}
+
+#congratsBox button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 10px;
+    background-color: #6c757d;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 3px 3px 6px #aaa, -3px -3px 6px #fff;
+}
+
+#congratsBox button:hover {
+    background-color: #5a6268;
+}
